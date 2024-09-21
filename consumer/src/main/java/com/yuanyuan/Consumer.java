@@ -22,7 +22,7 @@ public class Consumer {
         System.out.println(res);
 */
 
-        HelloService service = ProxyFactory.getProxy(HelloService.class, "1.0.0");
+        HelloService service = ProxyFactory.getProxy(HelloService.class, "2.0.0");
         String res = service.hello("zhangyuanyuan");
         System.out.println(res);
 
